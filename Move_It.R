@@ -49,12 +49,10 @@ ATB_df <- do.call("rbind.fill", lapply(fileloop, function(x) {
   dat
 }))
 
-# Change class from char to date
+# Change class from char to date and makes a new variable
 
 ATB_df$REPORT_DATE <- as.Date(BSHSIATB_df$REPORT_DATE, origin = '1899-12-30')
-ATB_df$ADM_DATE <- as.Date(BSHSIATB_df$ADM_DATE, origin = '1899-12-30')
-ATB_df$DISCH_DATE <- as.Date(BSHSIATB_df$DISCH_DATE, origin = '1899-12-30')
-ATB_df$BILLED_DATE <- as.Date(BSHSIATB_df$BILLED_DATE, origin = '1899-12-30')
+
 
 # Splits dataframe into List
 SplitList <- split(ATB_df,ATB_df$fileName)
