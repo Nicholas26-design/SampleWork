@@ -1,3 +1,6 @@
+# A real world application of this code would be a password on iphone.
+# With that example as well, you'd want to have a guess limit
+
 secret_word = "password"
 guess = ""  # variable to store the guess
 guess_count = 0
@@ -16,5 +19,4 @@ if out_of_guesses:
 else:
     print("You win!")
 
-# A real world example here would be a password on iphone.
-# With that example as well, you'd want to have a guess limit
+
