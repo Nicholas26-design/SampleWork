@@ -10,10 +10,9 @@ import dateutil.utils
 
 
 def email():
-    me = 'Nicholas.Kenney@ensemblehp.com'
-    you = 'michelle.brown@ensemblehp.com'
-    cc = 'deborah.fillnow@ensemblehp.com'
-    # you = 'anna.morris@ensemblehp.com'
+    me = 'Firstname.Lastname@address.com'
+    you = 'Firstname.Lastname@address.com'
+    cc = 'Firstname.Lastname@address.com'
     outlook = client.Dispatch('Outlook.Application')
     message = outlook.CreateItem(0)  # 0 is the code for a mail item (see the enumerations)
     message.Display()
@@ -31,10 +30,9 @@ def email():
 
 
 def email_Available():
-    me = 'Nicholas.Kenney@ensemblehp.com'
-    you = 'michelle.brown@ensemblehp.com'
-    cc = 'deborah.fillnow@ensemblehp.com'
-    # you = 'anna.morris@ensemblehp.com'
+    me = 'Firstname.Lastname@address.com'
+    you = 'Firstname.Lastname@address.com'
+    cc = 'Firstname.Lastname@address.com'
     outlook = client.Dispatch('Outlook.Application')
     message = outlook.CreateItem(0)  # 0 is the code for a mail item (see the enumerations)
     message.Display()
