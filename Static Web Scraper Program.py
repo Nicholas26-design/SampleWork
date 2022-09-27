@@ -27,7 +27,7 @@ def check_price():
     product_information = dataset.find(id="productTitle").get_text()
     product_price = dataset.find(id="priceblock_ourprice").get_text()
 
-# The output looks ugly so lets clean it
+# The output desired from the page looks ugly so lets clean it
     clean_product_information = product_information.strip()
     clean_product_price = product_price.strip()
     collection_date = datetime.date.today()
@@ -83,7 +83,7 @@ def send_mail():
     msg = f"Subject: {subject}\n\n{body}"
 
     server.sendmail(
-        'AlexTheAnalyst95@gmail.com',
+        'Nickenney13@gmail.com',
         msg
 
     )
