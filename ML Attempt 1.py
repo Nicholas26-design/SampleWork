@@ -16,3 +16,4 @@ for i in cursor:
     print(i)
     
 # https://www.w3schools.com/python/python_ml_data_distribution.asp
+# https://www.youtube.com/watch?v=i_LwzRVP7bg
