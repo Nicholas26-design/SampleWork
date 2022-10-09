@@ -17,3 +17,4 @@ for i in cursor:
     
 # https://www.w3schools.com/python/python_ml_data_distribution.asp
 # https://www.youtube.com/watch?v=i_LwzRVP7bg
+# https://www.youtube.com/watch?v=PeMlggyqz0Y&list=WL&index=17
