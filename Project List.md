@@ -11,9 +11,9 @@ Use ML to predict sporting outcomes
 
 Topics to learn:
 
-Basic Python
-Understand basic Javascript
-React Framework
-Django & Flask
+Basic Python,
+Understand basic Javascript,
+React Framework,
+Django & Flask,
 API Design
 
