@@ -1,0 +1,42 @@
+This is a document detailing best practices using Azure Dev Ops, as well as definitions.
+
+EPIC: Large pieces of work that support business goals and vision. Made up of multiple features and is a key functionality to support product.
+
+Feature: Smallest unit of value that satisfies a need. Usable by end-user. Stands on its own. Length of time is 2-4 weeks
+
+User Story: Execution ready deliverable. Multiple User Stories make up a Feature. A story takes 2-4 days to complete. 
+
+User Story:
+Business Value (Benefit for Customer)​
+
+As a <type of user>, I want <some goal> so that <some reason>.​
+
+example: As a power user, I can specify files or folders to backup based on file size, date created and date modified.​
+
+​
+
+Requirements​
+
+What actions could be taken?​
+
+What outcomes are expected?​
+
+Who and What have access?​
+
+Other supporting data/dependencies?
+
+
+
+-------------------------------
+
+
+Story Point Scale:
+
+1
+2
+3 User Story
+5
+8
+13
+20
+40 Feature
