@@ -16,6 +16,16 @@ def check_price():
     URL = 'https://www.amazon.com/Funny-Data-Systems-Business-Analyst/dp/B07FNW9FGJ/ref=sr_1_3?dchild=1&keywords=data%2Banalyst%2Btshirt&qid=1626655184&sr=8-3&customId=B0752XJYNL&th=1'
 # Find Your User-Agent: https://httpbin.org/get
 # Use user agent link to populate headers variable
+
+
+“””
+
+The user agent is a string of text that identifies the web browser, operating system, and device used to make a request to a web server. It helps websites understand how to render content properly for different devices and browsers. 
+
+Identifying the user agent in your web scraping requests can be important. It helps mimic different web browsers or devices, making your requests appear more legitimate and reducing the chances of being blocked by websites.
+
+“””
+
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36",
     "X-Amzn-Trace-Id": "Root=1-61634104-58c124fe1a51a9cb72bb420a",
     "X-Client-Data": "CIu2yQEIo7bJAQjEtskBCKmdygEI/4XLAQjq8ssBCO/yywEInvnLAQjegcwBCN2EzAEI54TMAQi2hcwBCNaFzAEI/4XMAQiBhswBGIyeywEYhv3LAQ=="}
