@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" modified="2023-09-29T17:56:41.851Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="H-WQQOi2Z8axf8AqwR0p" version="22.0.0" type="device">
+  <diagram name="Page-1" id="TRgBWNG2zB2MYaCzZkgB">
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oSwdpgCVkmAQj20gBNgA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oSwdpgCVkmAQj20gBNgA-1" target="oSwdpgCVkmAQj20gBNgA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSwdpgCVkmAQj20gBNgA-1" value="Azure event hub: ingestion point" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Event_Hubs.svg;" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="67" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oSwdpgCVkmAQj20gBNgA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oSwdpgCVkmAQj20gBNgA-2" target="oSwdpgCVkmAQj20gBNgA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSwdpgCVkmAQj20gBNgA-2" value="Streaming Process engine (perpetual query)" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Stream_Analytics.svg;" vertex="1" parent="1">
+          <mxGeometry x="250" y="110" width="153.85" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oSwdpgCVkmAQj20gBNgA-4" value="An event hub named Hub2 that contains 12 partitions" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Event_Hubs.svg;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="67" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
